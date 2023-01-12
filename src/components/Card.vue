@@ -124,4 +124,10 @@ button {
   font-weight: bold;
   background-color: inherit;
 }
+
+@media screen and (min-width: 450px) {
+  .card-content {
+    padding: 30px 50px 15px 50px;
+  }
+}
 </style>
