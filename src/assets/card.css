@@ -1,0 +1,116 @@
+.card {
+  background: white;
+  width: 90%;
+  max-width: 400px;
+  min-width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-content {
+  height: 400px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--very-pale-blue);
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: none;
+}
+
+.plan-details {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 20px;
+}
+
+.plan-name {
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+.plan-price {
+  color: var(--desaturated-blue);
+}
+
+.item-text {
+  color: var(--desaturated-blue);
+}
+
+button {
+  cursor: pointer;
+}
+
+.change-plan {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: var(--bright-blue);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.change-plan:hover,
+.change-plan:focus {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.pay {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--bright-blue);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 20px 15px 5px var(--pale-blue);
+}
+
+.pay:hover,
+.pay:focus {
+  opacity: 0.7;
+}
+
+.cancel {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  color: var(--desaturated-blue);
+  font-weight: bold;
+  background-color: inherit;
+}
+
+.cancel:hover,
+.cancel:focus {
+  color: var(--dark-blue);
+}
+
+@media screen and (min-width: 450px) {
+  .card-content {
+    padding: 30px 50px 15px 50px;
+  }
+}
