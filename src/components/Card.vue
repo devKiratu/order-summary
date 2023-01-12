@@ -103,6 +103,12 @@ button {
   font-weight: bold;
 }
 
+.change-plan:hover,
+.change-plan:focus {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
 .pay {
   border: none;
   outline: none;
@@ -115,6 +121,11 @@ button {
   box-shadow: 0 20px 15px 5px var(--pale-blue);
 }
 
+.pay:hover,
+.pay:focus {
+  opacity: 0.7;
+}
+
 .cancel {
   border: none;
   outline: none;
@@ -123,6 +134,11 @@ button {
   color: var(--desaturated-blue);
   font-weight: bold;
   background-color: inherit;
+}
+
+.cancel:hover,
+.cancel:focus {
+  color: var(--dark-blue);
 }
 
 @media screen and (min-width: 450px) {
