@@ -27,6 +27,6 @@ body {
 @media screen and (min-width: 376px) {
   body {
     background: var(--pale-blue) url("./images/pattern-background-desktop.svg")
-      no-repeat center -40%/100%;
+      no-repeat center -50%/100%;
   }
 }
